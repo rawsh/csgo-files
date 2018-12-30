@@ -5,50 +5,42 @@
 	"WelcomeMsg1"
 	{
 		"#format"	"{1:N}"
-		"en"		"{green}Hello {olive}{1}! {lightgreen}Don't be shy! Say {green}Hello {lightgreen}to other players."
-		"pl"		"{green}Witaj {olive}{1}! {lightgreen}Nie wstydź się! {green}Przywitaj {lightgreen}się z resztą graczy."
+		"en"		"{blue}Welcome to {red}cs.raw.sh, {green}{1}. {blue}GL&HF"
 	}
 	
 	"WelcomeMsg2"
 	{
-		"en"		"{green}Example Line {lightgreen}2"
-		"pl"		"{green}Przykładowa Linia {lightgreen}2"
+		"en"		"{green}!guns {lightgreen}to change weapon preferences."
 	}
 	
 	"WelcomeMsg3"
 	{
-		"en"		"{green}Example Line {lightgreen}3"
-		"pl"		"{green}Przykładowa Linia {lightgreen}3"
+		"en"		"{green}!calladmin {lightgreen}to report a player."
 	}
 	
 	"WelcomeMsg4"
 	{
-		"en"		"{green}Example Line {lightgreen}4"
-		"pl"		"{green}Przykładowa Linia {lightgreen}4"
+		"en"		"{green}!donate {lightgreen} to help pay for server hosting."
 	}
 	
 	"WelcomeMsg5"
 	{
-		"en"		"{green}Example Line {lightgreen}5"
-		"pl"		"{green}Przykładowa Linia {lightgreen}5"
+		"en"		"{green}TAB -> Server Website (https://cs.raw.sh) {lightgreen}to view statistics."
 	}
 	
 	"WelcomeMsg6"
 	{
 		"en"		"{green}Example Line {lightgreen}6"
-		"pl"		"{green}Przykładowa Linia {lightgreen}6"
 	}
 	
 	"WelcomeMsg7"
 	{
 		"en"		"{green}Example Line {lightgreen}7"
-		"pl"		"{green}Przykładowa Linia {lightgreen}7"
 	}
 	
 	"WelcomeMsg8"
 	{
 		"en"		"{green}Example Line {lightgreen}8"
-		"pl"		"{green}Przykładowa Linia {lightgreen}8"
 	}
 	
 	//Panel Messages
@@ -162,7 +154,7 @@
 	//Hint Message
 	"HintMessage"
 	{
-		"en"		"Welcome on our server! GL and HF!"
+		"en"		"Welcome to cs.raw.sh. GL&HF."
 		"pl"		"Witaj na naszym serwerze! GL and HF!"
 	}
 	
