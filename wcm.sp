@@ -22,8 +22,8 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	g_cServerLink = CreateConVar("sm_cmsg_serverlink", "www.yourwebsite.com/sourcebans", "Link to your servers page");
-	g_cWebsiteLink = CreateConVar("sm_cmsg_websitelink", "www.yourwebsite.com", "Link to your website");
+	g_cServerLink = CreateConVar("sm_cmsg_serverlink", "cs.raw.sh", "Link to your servers page");
+	g_cWebsiteLink = CreateConVar("sm_cmsg_websitelink", "cs.raw.sh", "Link to your website");
 
 	HookEvent("player_spawn", Event_OnPlayerSpawn);
 }
@@ -63,11 +63,10 @@ public Action Timer_DelaySpawn(Handle timer, any data)
 	g_cServerLink.GetString(sServerLink, sizeof(sServerLink));
 	g_cWebsiteLink.GetString(sWebsiteLink, sizeof(sWebsiteLink));
 	
-	PrintToChat(client, "WCM \x07~ \x01Hey Ho, \x03%N", client);
-	PrintToChat(client, "WCM \x07~ \x01Please Join \x06%s", client, sWebsiteLink);
-	PrintToChat(client, "WCM \x07~ \x01Have Fun, Be Nice. Enjoy!", client);
-	PrintToChat(client, "WCM \x07~ \x01Servers: \x06%s", client, sServerLink);
-	PrintToChat(client, "WCM \x07~ \x04Update\x01: \x10Clutch Case \x01Added!", client);
+	PrintToChat(client, "WCM \x07~ \x10Welcome to cs.raw.sh, \x01%N", client);
+	PrintToChat(client, "WCM \x07~ \x01View statistics at \x04https://cs.raw.sh\x01 (TAB->Server Website) \x06%s", client, sWebsiteLink);
+	PrintToChat(client, "WCM \x07~ \x03!guns\x01 for preferences (2 pages) \x03!calladmin\x01 to report hacking", client);
+	PrintToChat(client, "WCM \x07~ \x02!donate\x01 to help pay for server hosting", client);
 	g_bMessagesShown[client] = true;
 	
 	return Plugin_Continue;
