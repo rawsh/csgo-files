@@ -5,17 +5,17 @@
 	"WelcomeMsg1"
 	{
 		"#format"	"{1:N}"
-		"en"		"{blue}Welcome to {red}cs.raw.sh, {green}{1}. {blue}GL&HF"
+		"en"		"{olive}Welcome to {red}cs.raw.sh, {green}{1}. {blue}GL&HF"
 	}
 	
 	"WelcomeMsg2"
 	{
-		"en"		"{green}!guns {lightgreen}to change weapon preferences."
+		"en"		"{blue}!guns to change{lightgreen} weapon preferences."
 	}
 	
 	"WelcomeMsg3"
 	{
-		"en"		"{green}!calladmin {lightgreen}to report a player."
+		"en"		"{blue}!calladmin to  {lightgreen}report a player."
 	}
 	
 	"WelcomeMsg4"
